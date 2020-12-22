@@ -1,0 +1,55 @@
+{
+  "knownPayday": "2020-11-26",
+  "netIncome": 1400,
+  "payFrequencyWeeks": 2,
+  "payments": {
+    "weekly": [
+      {
+        "name": "rent",
+        "code": "rent",
+        "amount": 150.0,
+        "frequency": "weekly",
+        "day": 4
+      },
+      {
+        "name": "bills",
+        "code": "rent",
+        "amount": 40.0,
+        "frequency": "weekly",
+        "day": 4
+      }
+    ],
+    "fortnightly": [
+      {
+        "name": "Car Loan",
+        "code": "debt",
+        "amount": 200,
+        "frequency": "fortnightly",
+        "day": 11
+      }
+    ],
+    "monthly": [
+      {
+        "name": "Gym Membership",
+        "code": "leisure",
+        "amount": 50,
+        "frequency": "monthly",
+        "day": 1
+      },
+      {
+        "name": "Insurance",
+        "code": "bills",
+        "amount": 35,
+        "frequency": "monthly",
+        "day": 1
+      },
+      {
+        "name": "Phone Bill",
+        "code": "bills",
+        "amount": 30,
+        "frequency": "monthly",
+        "day": 29
+      }
+    ]
+  }
+}
