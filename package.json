@@ -1,13 +1,13 @@
 {
   "name": "fifo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Financial Forecasting in your terminal",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "yarn && npx ts-node src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Matt Chapman",
   "license": "ISC",
   "dependencies": {
     "@types/luxon": "^1.25.0",
