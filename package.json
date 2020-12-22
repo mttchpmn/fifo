@@ -1,6 +1,6 @@
 {
   "name": "fifo",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "Financial Forecasting in your terminal",
   "main": "src/index.ts",
   "scripts": {

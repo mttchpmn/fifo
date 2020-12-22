@@ -30,9 +30,17 @@ type PeriodSummary = {
 };
 
 const readConfFile = async (path: string) => {
-  const file = await fs.readFile(path, "utf8");
+  try {
+    const file = await fs.readFile(path, "utf8");
 
-  return JSON.parse(file);
+    return JSON.parse(file);
+  } catch (error) {
+    console.error(
+      "Error reading `conf.json` please make sure the file exists."
+    );
+
+    process.exit(1);
+  }
 };
 
 const validateConfFile = (confFile: string): void => {
